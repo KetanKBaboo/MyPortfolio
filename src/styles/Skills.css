@@ -1,0 +1,32 @@
+.skills-section{
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    border-bottom: 2px solid white;
+}
+.skills-section h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    color: #00ffb1;
+}
+.skill-list {
+    list-style: none;
+    width: 60%;
+    margin: 15px 0 30px;
+    padding: 15px;
+    border: 2px solid white;
+    box-shadow: 5px 8px
+}
+.skill-item h2{
+    font-size: 2rem;
+}
+.skill-item span {
+    font-size: 1.2rem;
+    font-family: monospace, sans-serif;
+  }

@@ -1,0 +1,80 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.nav-links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin: 1.4em;
+    font-size: 1.3rem;
+}
+
+a:hover, a:focus{
+    color: lightslategray;
+    transform: scale(1.1);
+}
+.toggleButton{
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+}
+.toggleButton button{
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .nav-links a{
+        font-size: 1.1rem;
+        margin: 1.2em;
+    }
+}
+@media only screen and (max-width: 576px){
+    .toggleButton{
+        display: flex;
+    }
+    #hidden .nav-links{
+        display: none;
+    }
+    #open .nav-links{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #open{
+        height: 100vh;
+        flex-direction: column;
+    }
+    #open a{
+        width: 100%;
+        text-align: center;
+    }   
+}
+@media only screen and (min-width: 577px){
+    .toggleButton{
+        display: none;
+    }
+    .navbar #hidden{
+        height: 100px;
+    }
+    #hidden .nav-links{
+        flex-direction: row;
+    }
+}

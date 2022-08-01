@@ -1,0 +1,74 @@
+.about-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../assets/myPic.jpg");
+    background-size: cover;
+    height: 150vh;
+    font-family: monospace, sans-serif;
+}
+.about{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15px;
+}
+.about-title{
+    font-size: 4rem;
+    font-family: cursive, monospace, sans-serif;
+    color: #000000;
+    width: 100%;
+    text-align: right;
+}
+.about-description{
+    width: 55%;
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: #000000;
+    padding: 15px 0;
+    text-align: right;
+    font-weight: 600;
+    border-top: 5px dashed;
+}
+#social-icons{
+    justify-content: flex-end;
+}
+@media only screen and (max-width:1200px){
+    .about-title{
+        font-size: 3.5rem;
+    }
+    .about-description{
+        font-size: 1.3rem;
+    }
+    .about{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:992px){
+    .about-title{
+        font-size: 3rem;
+    }
+    .about-description{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .about{
+        width: 90%;
+    }
+    .about-title{
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .about-description{
+        width: 100%;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    #social-icons{
+        justify-content: flex-start;
+    }
+}
