@@ -10,7 +10,7 @@ const Experience = () => {
     <div className="experience" id="experience">
       <h1>Experience</h1>
       <VerticalTimeline lineColor='white'>
-        <VerticalTimelineElement className='vertical-timeline-element--education'
+        <VerticalTimelineElement style={{color: "#00ffb1"}} className='vertical-timeline-element--education'
         date='2009 - 2014'
         iconStyle={{background:"white", color:"black"}}
         icon= {<SchoolIcon/>}>
@@ -18,7 +18,7 @@ const Experience = () => {
         <p style={{color: "black"}}><b>High School Certificate Examination</b></p>
         <p style={{color: "black"}}><b>Secured percentage :</b>  82.83%</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement className='vertical-timeline-element--education'
+        <VerticalTimelineElement style={{color: "#00ffb1"}} className='vertical-timeline-element--education'
         date='2014 - 2016'
         iconStyle={{background:"white", color:"black"}}
         icon= {<SchoolIcon/>}>
@@ -29,7 +29,7 @@ const Experience = () => {
           <li style={{listStyle: "None",fontWeight: "500"}}><b>Secured percentage :</b>  65.83%</li>
         </ul>
         </VerticalTimelineElement>
-        <VerticalTimelineElement className='vertical-timeline-element--education'
+        <VerticalTimelineElement style={{color: "#00ffb1"}} className='vertical-timeline-element--education'
         date='2016 - 2020'
         iconStyle={{background:"white", color:"black"}}
         icon= {<SchoolIcon/>}>
@@ -40,7 +40,7 @@ const Experience = () => {
           <li style={{listStyle: "None",fontWeight: "500"}}><b>Secured percentage :</b>  79%</li>
         </ul>
         </VerticalTimelineElement>
-        <VerticalTimelineElement className="vertical-timeline-element--work"
+        <VerticalTimelineElement style={{color: "#00ffb1"}} className="vertical-timeline-element--work"
         date="January 2022- Present"
         icon={<WorkIcon/>}
         iconStyle={{background:"white", color:"black"}}
